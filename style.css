@@ -1,0 +1,538 @@
+@font-face {
+    font-family: 'OpenSauce';
+    src: url(./fonts/OpenSauceOne-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'TanPearl';
+    src: url(./fonts/TAN-PEARL.ttf);
+}
+
+@font-face {
+    font-family: 'Codec';
+    src: url(./fonts/Codec-Cold-News-trial.ttf);
+}
+
+@font-face {
+    font-family: 'CodecPro';
+    src: url(./fonts/Codec-Cold-ExtraBold-trial.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 15px;               
+  }
+  
+body::-webkit-scrollbar-thumb {
+    background-color: gray;    
+    border-radius: 20px;
+  }
+
+.pag-inicial{
+    background-image: linear-gradient( to right, #00c2cb 33%, #e9b8cb 33%, #e9b8cb 70%, #6b6da8 33% ); 
+    height: 768px;
+    font-family: 'OpenSauce';
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-header{
+    height: 300px;
+    margin: -50px;
+    margin-top: -75px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.navbaritem{
+    font-size: 15px;
+    align-items: left;
+    margin-top: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+    align-items: center;
+    list-style-type: none;
+    float: left;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.iconnavbar{
+    margin-top: 20px;
+    margin-left: 0px;
+    height: 25px;
+}
+
+section{
+    margin-right: 40px;
+}
+
+.cachorros{
+    display: flex;
+    height: 650px;
+    margin-top: -57px;
+    margin-left: 39px;
+
+}
+
+.quem-somos{
+    background-color: #f7c959;
+    width: 100%;
+    height: 768px;
+}
+
+.quem-somos-titulo{
+    font-family: 'TanPearl';
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.PET{
+    color: #bd7500;
+}
+
+.hr1{
+    border-color: #ffff;
+    color: #ffff; 
+    font-style: none;
+    width: 38%;
+	text-align: left;
+	margin-top: -80px;
+   }
+
+   .hr2{
+    border-color: #ffff;
+    color: #ffff; 
+    width: 38%;
+	text-align: right;
+	margin-left: 877px;
+   }
+
+   .risquinhos{
+    height: 50px;
+    margin-left: 900px;
+    margin-top: 70px;
+   }
+
+   .dog4{
+    height: 300px;
+    float: right;
+    margin-right: 450px;
+    margin-top: -20px;
+   }
+
+.quemsomos-content{
+    text-align: center;
+    margin-top: 300px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Codec';
+}
+
+.ossos{
+    height: 500px;
+    margin-top: -1000px;
+    margin-left: 50px;
+}
+
+.produtos{
+    background-color: #9f4f50;
+    width: 100%;
+    height: 650px;
+}
+
+.dog5{
+    margin-top: 50px;
+}
+
+.produtos-titulo{
+    color: white;
+    font-family: 'CodecPro';
+    text-align: center;
+    padding: 220px;
+    font-size: 150px;
+    margin-top: -500px;
+}
+
+.produto1{
+    background-color: #03989e;
+    width: 100%;
+    height: 550px;
+    display: flex;
+}
+
+.racao{
+    margin-left: 150px;
+}
+
+.racaotxt {
+    color: white;
+    font-family: 'TanPearl';
+    margin-top: 200px;
+    margin-left: 150px;
+    font-size: 60px;    
+}
+
+.produto2{
+    background-color: #00c2cb;
+    width: 100%;
+    height: 550px;
+    display: flex;
+}
+
+.areia{
+    height: 500px;
+    margin-top: 30px;
+    margin-left: 75px;
+}
+
+.produto3{
+    background-color: #eba1e5;
+    width: 100%;
+    height: 550px;
+    display: flex;
+}
+
+.produto4{
+    background-color: #fdcbca;
+    width: 100%;
+    height: 550px;
+    display: flex;
+}
+
+.produto5{
+    background-color: #c9e265;
+    width: 100%;
+    height: 550px;
+    display: flex;
+}
+
+.servicos{
+    background-color: #9881c7;
+    width: 100%;
+    height: 768px;
+    margin-top: 2740px;
+}
+
+.servicos-titulo{
+    color: #9340ff;
+    font-family: 'CodecPro';
+    text-align: right;
+    margin-right: 300px;
+    padding-top: 80px;
+    font-size: 75px;
+}
+
+.servicos-conteudo{
+    color: white;
+    font-family: 'Codec';
+    margin-left: 800px;
+    font-size: 23px;
+    margin-top: 50px;
+}
+
+.bolhas{
+    margin-top: -400px;
+    margin-left: 50px;
+    height: 782px;
+}
+
+.sobre{
+    background-color: #fdcbca;
+    width: 100%;
+    height: 768px;
+}
+
+.sobre-titulo{
+    color: #d95d66;
+    font-family: 'CodecPro';
+    text-align: center;
+    padding-top: 30px;
+}
+
+.dog7{
+    height: 700px;
+    margin-top: -30px;
+}
+
+.sobre-conteudo{
+    color: white;
+    font-family: 'Codec';
+    margin-top: -550px;
+    font-size: 20px;
+}
+
+.faleconosco{
+    background-color: #63AECC;
+    width: 100%;
+    height: 768px;
+    display: flex;
+}
+
+.faleconosco-titulo{
+    color: #9340ff;
+    font-family: 'CodecPro';
+    text-align: right;
+    font-size: 75px;
+    padding-top: 200px;
+    padding-left: 50px;
+}
+
+.logo{
+    height: 400px;
+    padding-top: 100px;
+}
+
+.faleconosco-conteudo{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 300px;
+    font-size: larger;
+    margin-left: -525px;
+    
+}
+
+@media only screen and (max-width:950px) {
+
+.dog1{
+    display: none;
+}
+
+.dog2{
+    margin: auto;
+    display: block;
+    height: 100%;
+}
+
+.dog3{
+    display: none;
+}
+.navbar{
+    display: none;
+}
+
+.navbaritem{
+    display: none;
+}
+
+.iconnavbar{
+    display: none;
+}
+
+.logo-principal{
+    margin: auto;
+    display: block;
+}
+
+.pag-inicial{
+    background-color:#00c2cb; 
+    height: 768px;
+    font-family: 'OpenSauce';
+}
+
+.hr1{
+    display: none;
+}
+
+.hr2{
+    display: none;
+}
+
+.risquinhos{
+    display: none;
+}
+
+.ossos{
+    display: none;
+}
+
+.quemsomos-content{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-family: 'Codec';
+    margin: 0;
+    padding: 50px;
+}
+
+.dog4{
+    display: none;
+}
+
+.dog5{
+    margin-top: 0px;
+}
+
+.produtos-titulo{
+    color: white;
+    font-family: 'CodecPro';
+    text-align: center;
+    padding: 220px;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.produto1{
+    background-color: #03989e;
+    width: 100%;
+    height: 550px;
+    display: block;
+}
+
+.racao{
+    margin: auto;
+    display: block;
+    height: 400px;
+}
+
+.racaotxt {
+    color: white;
+    font-family: 'TanPearl';
+    font-size: 40px; 
+    margin: 0;
+    padding: 30px;  
+    text-align: center; 
+}
+
+.produto2{
+    background-color: #00c2cb;
+    width: 100%;
+    height: 550px;
+    display: block;
+}
+
+.areia{
+    padding-top: 40px;
+    margin: auto;
+    display: block;
+    height: 300px;
+
+}
+
+.produto3{
+    background-color: #eba1e5;
+    width: 100%;
+    height: 550px;
+    display: block;
+}
+
+.produto4{
+    background-color: #fdcbca;
+    width: 100%;
+    height: 550px;
+    display: block;
+}
+
+.produto5{
+    background-color: #c9e265;
+    width: 100%;
+    height: 550px;
+    display: block;
+}
+
+.servicos{
+    background-color: #9881c7;
+    width: 100%;
+    height: 768px;
+    margin-top: ;
+}
+
+.servicos-titulo{
+    color: #9340ff;
+    font-family: 'CodecPro';
+    text-align: right;
+    font-size: 75px;
+    text-align: center;
+    margin: 0;
+    padding-top: 30%;
+}
+
+.servicos-conteudo{
+    color: white;
+    font-family: 'Codec';
+    font-size: 23px;
+    margin: 0;
+    padding: 40px;
+    text-align: center;
+}
+
+.bolhas{
+    display: none;
+}
+
+.sobre-titulo{
+    color: #d95d66;
+    font-family: 'CodecPro';
+    text-align: center;
+    padding-top: 30px;
+}
+
+.dog7{
+    display: none;
+}
+
+.sobre-conteudo{
+    color: white;
+    font-family: 'Codec';
+    font-size: 20px;
+    margin: 0;
+    padding-top: 10%;
+}
+
+.faleconosco{
+    background-color: #63AECC;
+    width: 100%;
+    height: 768px;
+    display: block;
+}
+
+.faleconosco-titulo{
+    color: #9340ff;
+    font-family: 'CodecPro';
+    text-align: center;
+    font-size: 75px;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.logo{
+    height: 60%;
+    margin: auto;
+    display: block;
+    padding-top: 0;
+}
+
+.faleconosco-conteudo{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 300px;
+    font-size: larger;
+    margin: 0;
+    padding-top: 5%;
+    text-align: center;
+    display: block;
+}
+
+.dog8{
+    display: none;
+}
+
+
+}
